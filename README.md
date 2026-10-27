@@ -10,13 +10,17 @@
 
 Laramin is a starter admin template for Laravel.
 
+![Laramin Admin Starter Template](./screenshot.png)
+
 ## Installation
 
 Install with `composer require njdigitallab/laramin`.
 
 Then run `php artisan laramin:install`.
 
-You can add `admin` as an argument to the command, to put the files in an admin directory in each of the Laravel css, js and views directory.
+The `laramin:install` command will put the necessary blade, css and js files in your Laravel's app resource path. From here on, you will be able to modify the files to your liking.
+
+You can add `admin` as an argument to the `laramin:install` command, to put the files in an admin directory in each of the Laravel css, js and views directory.
 
 ## Getting Started
 

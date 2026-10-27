@@ -1,0 +1,55 @@
+#sidebar {
+    @apply hidden border-r border-gray-200;
+}
+
+.sidebar-open #sidebar {
+    @apply flex;
+}
+
+.parent-menu-item {
+    @apply flex items-center text-gray-500 py-2 px-2 mb-1 cursor-pointer;
+}
+
+.parent-menu-item:hover,
+.menu-container.open .parent-menu-item {
+    @apply bg-gray-200 text-gray-700 rounded;
+}
+
+.menu-container.active .parent-menu-item {
+    @apply bg-gray-200 text-blue-700;
+}
+
+.parent-menu-icon {
+    @apply w-8;
+}
+
+.parent-menu-title {
+    @apply text-sm;
+}
+
+.submenu {
+    @apply hidden flex-col pb-1;
+}
+
+.menu-container.open .submenu {
+    @apply flex;
+}
+
+.submenu-item {
+    @apply flex pl-10 pr-2 text-sm cursor-pointer;
+}
+
+.submenu-item a {
+    @apply w-full text-gray-400;
+}
+
+.submenu-item a:hover,
+.submenu-item a.active {
+    @apply text-gray-700;
+}
+
+@variant lg {
+    #sidebar {
+        @apply flex;
+    }
+}

@@ -24,8 +24,8 @@ class AppServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../../public/' => public_path('vendor/laraauth')
-            ], 'laraauth-assets');
+                __DIR__.'/../../public/' => public_path('vendor/laramin')
+            ], 'laramin-assets');
         }
     }
 }

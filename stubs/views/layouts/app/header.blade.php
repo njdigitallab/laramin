@@ -9,8 +9,8 @@
 
         {{-- Name / Logo --}}
         <div id="header-logo" class="hidden sm:flex ml-4 lg:ml-0">
-            <a href="#">
-                <img class="h-6" src="{{ asset('images/logo.png') }}">
+            <a href="#" class="text-2xl font-bold text-white">
+                {{ config('app.name') }}
             </a>
         </div>
     </div>

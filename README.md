@@ -5,10 +5,11 @@
 - [Getting Started](#Getting-Started)
 - [Styling](#Styling)
 - [Menu](#Menu)
+- [Authentication](#Authentication)
 
 ## About
 
-Laramin is a starter admin template for Laravel.
+Laramin is a starter admin template for Laravel. It generates an admin view, along with a working menu out of the box.
 
 ![Laramin Admin Starter Template](./screenshot.png)
 
@@ -62,4 +63,8 @@ If the current url matches a menu item, it will automatically be marked as activ
 @endsection
 ```
 
-The `menuId` variable must be set to match menu id defined in the `sidebar` file.
+The `menuId` variable must be set to match main menu id defined in the `sidebar` file.
+
+## Authentication
+
+Authentication is not provided by this template. We recommend using [Laraauth](https://github.com/njdigitallab/laraauth), one of our package.

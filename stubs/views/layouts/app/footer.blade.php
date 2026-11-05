@@ -3,6 +3,6 @@
         Developed by <a href="https://njdigitallab.com" target="_blank">NJ Digital Lab</a>
     </div>
     <div class="italic text-sm">
-        v1.0.0
+        v1
     </div>
 </footer>
